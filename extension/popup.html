@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/style/basic.css">
+  <title>LinkBook Extension</title>
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top header" role="navigation" style="display:none">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="http://linkbook.mobi">LinkBook</a>
+        <p class="navbar-text pull-right">
+          <a href="" class="navbar-link bye">Salir</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <div style="display:none" class="container-fluid main">
+    <div class="row">
+      <!-- inicio url -->
+      <div class="col-sm-12 url-section">
+        <form id="url-form" class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="url">Email</label>
+            <input type="text" class="form-control" id="url" name="url" placeholder="Introduce la url" >
+            <button class="btn btn-success btn-block btn-sm" id="send" type="submit">Sincronizar</button>
+            <em class='msg'></em>
+          </div>
+        </form>
+      </div>
+      <!-- fin url -->
+      <!-- inicio enlaces del usuario -->
+      <div class="col-sm-12 enlaces-section">
+        <div class="col-sm-12 days">
+          <h5 class="title-days">Hoy</h5>
+          <div class="hoy">
+          </div>
+        </div>
+        <div class="col-sm-12 days">
+          <h5 class="title-days">Ayer</h5>
+          <div class="ayer">
+          </div>
+        </div>
+        <div class="col-sm-12 days">
+          <h5 class="title-days">Hace unos dias<h5>
+          <div class="antes">
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-12 error">
+        <div class="alert alert-danger">
+          <strong>¡Error!</strong> Se ha producido un error, vuelva a intentarlo.
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <!-- login -->
+  <div class="container-fluid login" style="display:block">
+    <div class="row">
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Iniciar Sesión</h2>
+        <input type="text" class="form-control" name="user" id="user" placeholder="Usuario" autofocus >
+        <input type="password" class="form-control" name="pass1" id="pass1" placeholder="Contraseña" >
+        <span style="display:none" class="wrong"></span>
+        <button class="btn btn-primary btn-block sub" type="submit">Entrar</button>
+        <button class="btn btn-primary btn-block fb disabled" type="button" >Login with Facebook</button>
+      </form>
+    </div>
+  </div>    
+  <!-- fin de login -->
+  <!-- inicio de pie -->
+  <nav class="navbar navbar-default navbar-fixed-bottom pie" role="navigation" style="display:block">
+    <div class="container">
+      <p class="navbar-text pull-center">
+        <a href="http://linkbook.mobi/linkbook/index#signup" class="navbar-link regis">¿Aún no tienes cuenta? Regístrate</a>
+      </p>
+    </div>
+  </nav>
+  <!-- fin de pie -->
+  <!-- carga de scripts -->
+  <script src="/js/jquery-2.1.1.min.js"></script>
+  <script src="/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  <script src="/js/dateformat.js"></script>
+  <script src="js/jquery.md5.js"></script>
+  <script src="/js/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body { 
+  background: white; 
+}
+
+.url-container .form-group {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: -9px;
+}
+
+.form-group .form-control {
+  width: 90%;
+}
+
+.form-group .sub {
+  margin-top: 0;
+  width: 10%;
+  background: #67de32;
+}
+
+.form-group .sub:hover,
+.form-group .sub:focus {
+  background: #57be2a;
+}
+
+.url-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.url-panel {
+  padding: 0;
+}
+
+.url-panel .days {
+  line-height: 30px;
+  height: 30px;
+  background: #393939;
+  margin-bottom: 1px;
+  color: #fff;
+}
+
+.url-panel .days .arrow {
+  margin-top: 6px;
+}
+
+.url-panel .link-container {
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  background: #f3f3f3;
+}
+
+.url-panel .link-container .type {
+  width: 50px;
+}
+
+.url-panel .link-container .type img {
+  height: 20px;
+}
+
+.url-panel .link-container .del {
+  text-align: right;
+}
+
+.antes {
+  margin-bottom: 20px;
+}

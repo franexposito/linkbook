@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkBook. Comparte y almacena tus enlaces.</title>
+  <meta name="keywords" content="guardar enlaces, compartir enlaces entre dispositivos, link book, enlaces, enlace movil a ordenador" />
+  <meta name="description" content="Comparte y guarda enlaces entre tus dispositivos" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Styles -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/index.css">
+  <!-- -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- inicio header -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/linkbook">LinkBook</a>
+      </div>
+      
+      <div class="collapse navbar-collapse" >
+        <ul class="nav navbar-nav navbar-left">
+          <li><a class="ques" href="#" >¿Qué es?</a></li>
+          <li><a href="contacto" >Contacto</a></li>
+          <li><a class="signup-h" href="#" >Registrarse</a></li>
+          <li><a href="login" >Entrar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- fin header -->
+  <main class="panel first" >
+      <p class="p-index" >Bienvenido a Linkbook</p>
+      <div class="row">
+        <div class="col-sm-12 lienzo">
+          <div class="col-sm-3"><img src="img/mobile-mk.png"> <span class="s-img">Móviles</span></div>
+          <div class="col-sm-6"><img src="img/pc-mk.png"><span class="s-img">Ordenadores</span></div>
+          <div class="col-sm-3"><img src="img/tablet-mk.png"><span class="s-img">Tablets</span></div>
+        </div>
+        <div class="col-sm-12 lienzo2">
+          <div class="col-sm-12"><img src="img/device-mk.png"><span class="s-img">Todos los dispositivos</span></div>
+        </div>
+      </div>
+      <a href="#signup" class="btn btn-default begin signup-h">Comenzar</a>
+  </main>
+  
+  <section id="info1" class="panel last">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Guarda y sincroniza enlaces entre tus dispositivos</h1>
+        <p class="p-info">Almacena tus enlaces para poder compartirlos entre todos tus dispositivos. <strong>Linkbook</strong> es la manera
+        más rápida y eficaz para hacerlo. Sin complicaciones, gratuito y sin publicidad. Solo tienes que darte de alta en la web y comenzar.</p>
+        <p class="p-info">Si lo que necesitas intercambiar enlaces de manera cómoda entre todos tus dispositivos, <strong>linkbook</strong> es tu solución.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="info2" class="panel last">
+    <div class="row">
+      <div class="col-sm-6 app">
+        <h1>Aplicación de Android</h1>
+        <h5 style="text-align: center" >Pronto</h5>
+      </div>
+      <div class="col-sm-6 app">
+        <h1>Extensión Google Chrome</h1>
+        <a target="_blank" href="https://chrome.google.com/webstore/detail/linkbook/ncchapghfddgbkbaidjfgobklhcjjeal"><img src="img/BadgeWBorder_v2_340x96.png" /></a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="signup" class="panel last">
+      <div class="row">
+        <div class="col-sm-6 col-md-offset-3 signup">
+          <h1>LinkBook</h1>
+          <div class="signup-section">
+            <form id="signup-form" role="form" method="post">
+              <p class="p-form">Rellena el siguiente formulario para crear una nueva cuenta</p>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon"><img alt="user" src="img/1409334398_user.png" /></div>
+                  <input class="form-control" id="user" name="user" type="text" placeholder="Introduce tu usuario">
+                </div>
+                <span class="form-error"></span>
+                <div class="input-group">
+                  <div class="input-group-addon"><img alt="user" src="img/1409488721_mail.png" /></div>
+                  <input class="form-control" id="email" name="email" type="text" placeholder="Introduce tu email">
+                </div>
+                <span class="form-error"></span>
+                <div class="input-group">
+                  <div class="input-group-addon"><img alt="pass" src="img/1409334402_pass.png" /></div>
+                  <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Introduce tu contraseña">
+                </div>
+                <span class="form-error"></span>
+                <div class="input-group">
+                  <div class="input-group-addon"><img alt="pass" src="img/1409334402_pass.png" /></div>
+                  <input type="password" class="form-control" id="pass2" name="pass2" placeholder="Repita la contraseña">
+                </div>
+                <span class="form-error"></span>
+                <p style="text-align:left" class="p-form new">Continuando con el proceso aceptas los 
+                <a href="#">Términos y Condiciones de Uso</a></p>
+
+                <button type="submit" class="btn btn-default btn-block sub">Crear cuenta</button>
+                <button type="submit" class="btn btn-default btn-block fb disabled">Create with Facebook (pronto)</button>
+                <div class="line"></div>
+                <p class="p-form new">Si ya tienes una cuenta puedes <a href="login">iniciar sesión</a></p>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer id="pie">
+      <p>@LinkBook 2014. Siguenos en <a class="footer-t" href="https://twitter.com/linkbook2014">Twitter</a> </p>
+  </footer>
+  
+  
+  <!-- JS -->
+  <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js"></script>
+  <script src="js/jquery.md5.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-54471949-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>

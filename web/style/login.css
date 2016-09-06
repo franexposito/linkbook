@@ -1,0 +1,64 @@
+@media (min-width: 767px) {
+  .login {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+.main {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.login .title {
+  text-align: center;
+}
+
+.login-section {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #fff;
+  height: 450px;
+}
+
+
+.login-section .forgot {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.login-section .forgot:hover {
+  color: #5d5d5d;
+}
+
+.checkbox {
+  font-size: 12px;
+}
+
+.checkbox input[type=checkbox] {
+  height: 10px;
+}
+
+@media (max-width: 767px) {
+  .apps {
+    margin-bottom: 20px;
+  }
+}
+
+.app {
+  height: 50px;
+  background: #393939;
+  color: #e1e1e1;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.login-error {
+  text-align: center;
+  display: block;
+  color: #ff7474;
+}

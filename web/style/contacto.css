@@ -1,0 +1,37 @@
+.main {
+  padding-top: 20px;
+}
+
+.main h1 {
+  margin-bottom: 30px;
+}
+
+.main .l {
+ color: #e5165c; 
+}
+
+.main .w {
+  color: #00b119;
+}
+
+.main .t {
+ color: #00ffe1; 
+}
+
+.main .f {
+  color: #2372a3;
+}
+
+.main .l, 
+.main .w,
+.main .t,
+.main .f {
+  display: block;
+}
+
+.contact, 
+.apps,
+.dev {
+  background: white;
+  height: 400px;
+}
